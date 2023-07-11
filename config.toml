@@ -1,0 +1,28 @@
+theme = "gruvbox"
+
+[editor]
+line-number = "relative"
+mouse = false
+bufferline = 'always'
+soft-wrap.enable = true
+lsp.display-inlay-hints = true
+
+[keys.normal]
+esc = ["collapse_selection", "keep_primary_selection"]
+
+[keys.normal."space"]
+t = ":run-shell-command go test -v ./test"
+
+[keys.insert]
+C-h = ["move_char_left"]
+C-j = ["move_visual_line_down"]
+C-k = ["move_visual_line_up"]
+C-l = ["move_char_right"]
+C-o = ["open_below"]
+C-s = ["goto_first_nonwhitespace"]
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.statusline]
+left = ["mode", "spinner", "version-control"]
