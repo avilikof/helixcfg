@@ -1,3 +1,8 @@
+# [[language]]
+# name = "rust"
+# auto-format = false
+# file-types = ["rs"]
+# roots = ["Cargo.toml"]
 [[language]]
 name = "go"
 file-types = ["go"]
