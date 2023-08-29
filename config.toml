@@ -1,4 +1,5 @@
-theme = "sonokai"
+# theme = "sonokai"
+theme = "rose_pine_moon"
 
 [editor]
 line-number = "relative"
@@ -21,6 +22,7 @@ G = "goto_file_end"
 
 [keys.normal."space"]
 x = ":buffer-close"
+n = ":new"
 
 [keys.insert]
 C-h = ["move_char_left"]
